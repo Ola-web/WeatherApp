@@ -34,9 +34,9 @@ export default function Home() {
                       
                   </div>
                   <div className="text-white">
-                      <h1 className="text-9xl">{weather.main.temp}<sup>o</sup> </h1>
-                     <p>Humidity: <span className="px-16">{weather.main.humidity} %</span></p>
-                     <p>Wind Speed: <span className="px-10">{weather.wind.speed} mph</span></p>
+                     <h1 className="text-9xl">{weather.main?.temp}<sup>o</sup> </h1>
+                     <p>Humidity: <span className="px-16">{weather.main?.humidity} %</span></p>
+                     <p>Wind Speed: <span className="px-10">{weather.wind?.speed} mph</span></p>
                   </div>
               </div>
 
